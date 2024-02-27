@@ -1,0 +1,740 @@
+/*NULLIFY*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+h a:focus,
+a:active nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/* _________________________ */
+
+body {
+    background: rgba(255, 255, 255, 1);
+    font-family: "Muli", sans-serif;
+    height: auto;
+
+}
+
+.main {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+
+
+/*_____________________header__________________________ */
+
+
+
+
+header {
+    padding: 20px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+   
+    width: 160px;
+    height: 41px;
+    padding-left: 30px;
+
+}
+
+.T {
+    background: rgba(69, 143, 246, 1);
+    border-radius: 50%;
+
+    color: white;
+    width: 31px;
+    height: 31px;
+    top: 56px;
+    left: 191px;
+    text-align: center;
+    padding-top: 8px
+}
+
+.Trafalgar {
+    width: 107px;
+    height: 30px;
+    top: 62px;
+    left: 244px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+/* ______maniu_____ */
+
+
+.maniu {
+    display: flex;
+   
+
+}
+
+.maniu_element {
+    padding-left: 10px;
+    padding-right: 40px;
+
+    color: rgba(15, 15, 15, 0.445);
+
+
+}
+
+.Home {
+    color: black;
+
+
+}
+
+/* ____________________content________________ */
+content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ______________backgound______________ */
+
+
+
+/* _____________content-nav___________________ */
+
+
+.top_content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.background{
+position: relative;
+width: 100px;
+top: 160px;
+left: -50px;
+
+
+
+}
+
+.about {
+    padding-left: 50px;
+}
+
+
+
+h1 {
+    width: 445px;
+    font-size: 48px;
+    font-weight: 550;
+    line-height: 36px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+
+.about_healthcare {
+    color: rgba(125, 121, 135, 1);
+    width: 445px;
+    height: 96px;
+    top: 420px;
+    left: 190px;
+
+
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+
+}
+
+
+.nav_main_image {
+    height: 398px;
+ margin-left: 120px;
+}
+
+
+.nav_button {
+    background: rgba(69, 143, 246, 1);
+
+    color: white;
+    font-size: 15px;
+    line-height: 60px;
+    padding: 15px 25px;
+
+    border-radius: 55px;
+
+
+
+}
+
+/* __________________choiches____________________ */
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.line {
+    border-top: 1px solid #000;
+    width: 56px;
+    height: 2px;
+
+    padding: 15px;
+
+}
+
+.title_main_text {
+    width: 952px;
+padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+
+    color: rgba(125, 121, 135, 1);
+
+}
+
+
+/* _____________BOX_____________*/
+
+
+.servace_container {
+    display: grid;
+grid-template-columns:450px 450px 450px;
+justify-items: center;
+
+}
+
+.box {
+    width: 350px;
+    height: 354px;
+    top: 1615px;
+    left: 624px;
+    border-radius: 20px;
+    
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+
+
+
+}
+
+
+.box_img {
+    width: 90px;
+    height: 100px;
+    margin: 15px;
+}
+
+
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+padding-left: 15px;
+    
+}
+
+
+.box_text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+   
+    padding-left: 10px;
+    width: 266px;
+height: 84px;
+top: 1838.41px;
+left: 663px;
+
+    
+
+    
+}
+.button{
+    margin-top: 50px;
+
+    margin-bottom: 20px;
+}
+
+.lern_more{
+    width: 200px;
+height: 56px;
+top: 2041px;
+left: 700px;
+border-radius: 55px;
+border: 1.4px solid rgba(69, 143, 246, 1);
+padding: 15px 30px;
+
+
+font-size: 15px;
+font-weight: 700;
+line-height: 60px;
+color: rgba(69, 143, 246, 1);
+
+
+
+
+}
+
+/* _____________Leading_healthcare__________ */
+
+
+.Leading_healthcare{
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+
+
+}
+
+.Leading_healthcare_image{
+width: 400px;
+height:350px;
+
+}
+
+.Leading_healthcare_text{
+    padding-left: 50px ;
+}
+
+h3{
+
+font-size: 26px;
+font-weight: 700;
+line-height: 25px;
+text-align: left;
+padding-bottom: 10px;
+
+}
+
+.Leading_healthcare_paragraf{
+    width: 450px;
+    height: 120px;
+    top: 254px;
+    left: 927px;
+    color: rgba(125, 121, 135, 1);
+
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+    text-align: left;
+    
+}
+
+.line_two{
+    border-top: 1px solid #000;
+    width: 56px;
+    height: 2px;
+    padding: 10px 0px;
+}
+
+.button_second{
+
+    background-color: none;
+}
+
+/* _______________________mobile app_____________________ */
+
+.mobile_apps{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+
+
+.mobile_app_text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 350px;
+    padding-bottom: 20px ;
+    color: rgba(125, 121, 135, 1);
+
+}
+.mobile_apps_img{
+    width: 465px;
+    height: 334px;
+}
+
+
+
+/* ___________________costumar_________________ */
+
+
+.costumar{
+background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+width: 1120px;
+height: 325px;
+border-radius: 24px;
+margin-bottom: 55px;
+
+}
+
+.costumar_main_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.costumar_row{
+    display: flex;
+    align-items: center;
+}
+
+.costumar_title{
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+padding-top: 15px;
+color: rgba(255, 255, 255, 1);
+
+}
+.costumer-line{
+    border-top: 1px solid white;
+    width: 56px;
+    height: 2px;
+    padding: 10px 0px;
+
+}
+
+.profile{
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top:50px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.costumar_text{
+    width: 520px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 120px;
+    padding-right: 15px;
+    color: rgba(255, 255, 255, 0.9);
+
+    
+}
+
+.name{
+width: 184px;
+font-size: 19px;
+font-weight: 400;
+line-height: 25px;
+color: white;
+}
+
+.funder{
+    color: rgba(255, 255, 255, 0.85);
+
+}
+
+/* ____________________arcticle________________ */
+
+
+
+.arcticle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.article_box{
+width: 350px;
+height: 512px;
+border-radius: 15px;
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+
+
+}
+
+.arcticle_img{
+width: 350px;
+height: 240px;
+
+}
+
+.arcticle_main_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.arcticle_title{
+  
+
+padding-left: 0px;
+
+width: 265px;
+font-size: 21px;
+font-weight: 600;
+line-height: 28px;
+
+}
+
+
+.article_box_paragrap{
+font-size: 16px;
+
+line-height: 23px;
+
+width: 266px;
+height: 84px;
+color: rgba(125, 121, 135, 1);
+
+
+
+
+
+}
+
+.article_box{
+    margin-right: 15px;
+}
+
+.read_more{
+
+font-size: 17px;
+font-weight: 600;
+line-height: 28px;
+color: rgba(64, 137, 237, 1);
+
+}
+
+.main_title{
+
+    padding-bottom: 15px;
+
+
+}
+
+
+
+/* ________________button___________________ */
+
+
+.viewall{
+    width: 200px;
+    height: 56px;
+    margin-left: 400px;
+
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgba(69, 143, 246, 1);
+}
+
+.button_arcticle{
+    margin-bottom: 155px;
+}
+
+/* ___________footer____________ */
+
+.footer_box{
+padding-left: 75px;
+width: 100%;
+height: 432px;
+top: 5438px;
+background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+
+}
+
+
+.footer_title{
+font-size: 20px;
+font-weight: 700;
+line-height: 60px;
+color:  rgba(255, 255, 255, 1);
+
+
+}
+
+.footer_box{
+    display: flex;
+    justify-content: space-between;
+     padding-top: 100px ;
+     padding-right: 250px;
+
+}
+
+.logo{
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.T2{
+    background: white;
+    border-radius: 50%;
+
+    color: rgba(91, 155, 243, 1);
+    width: 31px;
+    height: 31px;
+    
+    text-align: center;
+    padding-top: 8px;
+
+ 
+  
+}
+
+.Trafalgar2{
+    width: 107px;
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 10px;
+    padding-left: 15px;
+
+    font-weight: 700;
+    
+ 
+}
+
+.Trafalgar_text{
+    width: 391px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.footer_text{
+    width: 391px;
+    height: 28px;
+   
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+li{
+ color: white;
+font-size: 15px;
+font-weight: 400;
+line-height: 50px;
+
+}
